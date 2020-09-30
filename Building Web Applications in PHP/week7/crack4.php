@@ -7,6 +7,7 @@
 Debug Output:
 <?php
 $goodtext = "Not found";
+$md5 ="";
 // If there is no parameter, this code is all skipped
 if ( isset($_GET['md5']) ) {
     $time_pre = microtime(true);
